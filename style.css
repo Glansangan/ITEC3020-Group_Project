@@ -1,0 +1,8 @@
+.main-page {
+    background-image: url('mainpg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-color: black;
+}
