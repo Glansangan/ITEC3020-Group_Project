@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="405.49323"
+   height="711.84125"
+   viewBox="0 0 405.49324 711.84121"
+   sodipodi:docname="lamp.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.002553"
+     inkscape:cx="139.64349"
+     inkscape:cy="368.55908"
+     inkscape:window-width="1920"
+     inkscape:window-height="974"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g9" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Image 1"
+     transform="translate(-839.49233,-154.14699)">
+    <g
+       id="g10">
+      <g
+         id="g8"
+         inkscape:label="lamp stand"
+         transform="translate(749.90075)">
+        <ellipse
+           style="opacity:1;fill:#6e6767;fill-opacity:1;stroke-width:1.05069"
+           id="path3-8"
+           cx="197.52771"
+           cy="820.47095"
+           rx="107.1486"
+           ry="45.517303"
+           inkscape:label="lamp stand shadow" />
+        <ellipse
+           style="opacity:1;fill:#827a7a;fill-opacity:1;stroke-width:1.01331"
+           id="path3"
+           cx="198.14821"
+           cy="809.16254"
+           rx="108.55663"
+           ry="41.789387"
+           inkscape:label="lamp stand" />
+      </g>
+      <g
+         id="g9"
+         transform="translate(779.4241,24.899636)"
+         inkscape:label="lamp head">
+        <rect
+           style="display:inline;opacity:1;fill:#827a7a;fill-opacity:1"
+           id="rect5"
+           width="33.913422"
+           height="358.08582"
+           x="146.12694"
+           y="402.97122"
+           inkscape:label="lamp body" />
+        <path
+           style="display:inline;opacity:1;fill:#6e6767;fill-opacity:1"
+           d="m 294.80986,372.17485 6.73281,4.4262 6.23409,1.62086 6.1094,-0.12468 9.03942,-1.55852 6.48345,-2.18193 8.16665,-3.30407 17.51778,-7.29387 11.72008,-5.7977 20.57248,-11.22136 7.10685,-4.67556 20.69716,-12.84221 8.47836,-6.60813 12.2188,-10.72263 4.48854,-4.80024 6.48345,-6.8575 5.04961,-6.48344 4.23918,-5.486 7.35622,-10.03688 1.88848,-4.55088 -128.19104,-20.01141 z"
+           id="path8"
+           sodipodi:nodetypes="cccccccccccccccccccccc"
+           inkscape:label="lamp head shadow" />
+        <path
+           style="display:inline;opacity:1;fill:#827a7a;fill-opacity:1"
+           d="m 146.11246,406.83636 -0.1102,-14.08903 1.49618,-6.35877 3.24173,-6.73281 5.23663,-7.73026 6.23408,-8.47836 106.60285,-147.49844 -3.61861,-6.12011 -2.24817,-5.0253 -3.74694,-10.84409 -2.6449,-10.57959 -1.58693,-11.9902 -0.70531,-12.51919 2.11592,-13.57714 2.6449,-7.05306 3.52653,-5.11347 4.93714,-2.82123 7.05306,-1.05796 5.64245,1.23429 9.34531,4.05551 12.16653,6.70041 11.81388,8.64 9.87428,7.40571 7.58204,8.46368 5.46613,5.64245 6.70041,9.52163 5.9951,7.93469 8.46054,0.23407 11.03433,0.68574 14.15137,1.80789 17.76714,4.67556 12.53051,5.486 7.73027,4.11449 12.28115,8.04197 8.97708,8.79006 9.53815,13.52796 8.60303,14.96181 3.67811,7.1692 1.43384,4.86258 0.24937,3.74045 -0.37405,6.79515 -2.05725,2.4313 -2.55597,2.99236 -2.743,2.74299 -2.61831,2.18193 -4.92493,2.24427 -6.42111,2.86768 -5.67301,1.49618 -5.11195,0.68575 -5.54834,0.99746 -7.04451,1.05979 -8.35368,2.61832 -6.23408,1.87022 -9.35113,2.49364 -7.23154,2.93002 -5.86004,2.61831 -5.23663,2.49364 -5.23663,3.24172 -5.04961,4.05215 -5.14382,4.67302 -8.82053,8.60558 -5.11195,5.86004 -4.86258,5.98472 -3.24173,5.11195 -3.61577,5.486 -5.36131,6.35876 -5.48599,6.8575 -5.73536,4.7379 -4.61322,3.61577 -2.743,2.49364 -3.36641,0.74809 h -5.48599 l -5.11195,-1.12214 -7.97963,-4.86259 -9.97453,-9.72517 -8.47836,-12.2188 -4.23918,-10.97199 -3.98981,-11.22135 -2.99236,-11.72008 -2.49363,-13.96435 v -10.47327 l 2.24427,-14.21371 -78.30011,114.20843 -2.36895,4.86259 -0.99745,4.98726 0.37404,3.36641 z"
+           id="path5"
+           inkscape:label="lamp head"
+           sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
+      </g>
+    </g>
+  </g>
+</svg>
