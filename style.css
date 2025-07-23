@@ -1,8 +1,25 @@
-.main-page {
-    background-image: url('mainpg.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    background-position: center;
-    background-color: black;
+body, html {
+  height:100%;
+  overflow: hidden;
+}
+
+#wall {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 58%;
+  top: 0;
+  background-color: #dde5b6;
+  
+}
+
+#table {
+  position: absolute;
+  left: 0;
+  top: 58%;
+  width: 100%;
+  height: 50%;
+  background-color: #a98467;
+ 
+
 }
