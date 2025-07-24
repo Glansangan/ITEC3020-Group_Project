@@ -26,18 +26,18 @@ body, html {
 
 #plant {
   position: absolute;
-  top: 30%;     
-  left: 85%;
-  width: 150px;
+  top: 25vh;    /* lower --> top, higher --> down */
+  left: 83vw;   /* lower --> left, higher --> right */
+  width: 12vw;
   height: auto;
   z-index: 2;
 }
 
 #stationary {
   position: absolute;
-  top: 62%;     
-  left: 78%;
-  width: 120px;
+  top: 62vh;     
+  left: 75vw; /* lower --> left, higher --> right */
+  width: 9vw;
   height: auto;
  
 }
@@ -45,10 +45,17 @@ body, html {
 
 #lamp {
   position: absolute;
-  top: 13%;     
-  right: 78%;
-  width: 250px;
+  top: 10vh;     
+  right: 75vw;
+  width: 20vw;
   height: auto;
  
 }
 
+#laptop {
+  position: absolute;
+  top: 10vh;    /*  move up/down, higher percent --> down, low -- > up */
+  right: 28vw; /* move right/left. high percent --> left, low percent --> right */
+  width: 48vw; /* make object bigger */ 
+  height: auto;
+}
