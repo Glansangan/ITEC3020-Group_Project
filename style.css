@@ -1,4 +1,9 @@
-body, html {
+.front_page, front_page_html {
+  height:100%;
+  overflow: hidden;
+}
+
+.login_page_html, login_page {
   height:100%;
   overflow: hidden;
 }
@@ -78,7 +83,6 @@ body, html {
   background-color: lightgray;
   padding: 5px;
   border-radius: 10px;
-  justify-content: center;
 }
 
 .app p {
