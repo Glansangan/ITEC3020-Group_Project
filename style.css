@@ -52,13 +52,44 @@ body, html {
  
 }
 
-#laptop {
+#main_laptop {
   position: absolute;
   top: 10vh;    /*  move up/down, higher percent --> down, low -- > up */
   right: 28vw; /* move right/left. high percent --> left, low percent --> right */
   width: 48vw; /* make object bigger */ 
   height: auto;
 }
+
+#login_laptop {
+  position: absolute;
+  top: 10vh;    /*  move up/down, higher percent --> down, low -- > up */
+  right: 28vw; /* move right/left. high percent --> left, low percent --> right */
+  width: 48vw; /* make object bigger */ 
+  height: auto;
+  z-index: 1; 
+}
+
+.login_form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: absolute;
+  top: 35vh;    /* higher percent --> down, low -- > up */
+  right: 40vw; /* high percent --> left, low percent --> right */
+  width: 20vw; /* make object bigger */ 
+  height: auto;
+  background-color: #d9d9d9; 
+  padding: 20px;
+  border-radius: 15px;
+  border: 2px solid #000;
+  z-index: 2; /* make sure login form is on top of everything */
+}
+
+.login_form input {
+  width: 65%;
+  border-radius: 10%;
+}
+
 
 /* -------------------------------------------------------------------Feature Page's Header and BG-------------------------------------------------------------- */
 .feature {
