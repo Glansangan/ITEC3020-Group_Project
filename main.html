@@ -1,26 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lock In Zone</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lock In Zone</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-<body class="front-page">
+    <body class="front-page">
 
-    <div id="table"> </div>
+<!----------------------------------------------------------- Background -------------------------------------------------------------------------->
 
-    <div id="wall"> </div>
-
-    <div> <img src="media/plant.svg" id="plant"> </div>
-
-    <div> <img src="media/stationary.svg" id="stationary"> </div>
-
-    <div> <img src="media/lamp.svg" id="lamp">  </div>
-
-    <div> <img src="media/laptop.svg" id="laptop"> </div>
+    <!--ATTENTION: if you comment the below out you will see the "mainPageContent" div and its contents-->
+        <div id="bg">
+            <div id="table"> </div>
+            <div id="wall"> </div>
+            <div> <img src="media/plant.svg" id="plant"> </div>
+            <div> <img src="media/stationary.svg" id="stationary"> </div>
+            <div> <img src="media/lamp.svg" id="lamp">  </div>
+            <div> <img src="media/laptop.svg" id="laptop"> </div>
+        </div>
     
-</body>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------->
+        <div id="mainPageContent">
+            <div id="appsContainer">
+
+                <!-- <div id="guide">
+                    <p>Click the app you would like to open</p>
+                </div> -->
+
+            <!--------------------- Timer ----------------------->
+                <div class="app">
+                    <img src="media/timer.png">
+                    <p>Timer</p>
+                </div>
+            <!--------------------- To Do List ----------------------->
+                <div class="app">
+                    <img src="media/to-do.png">
+                    <p>To Do List</p>
+                </div>
+            <!--------------------- Calendar ----------------------->
+                <div class="app">
+                    <img src="media/calendar.png">
+                    <p>Calendar</p>
+                </div>
+            <!--------------------- Notes ----------------------->
+                <div class="app">
+                    <img src="media/notes.png">
+                    <p>Notes</p>
+                </div>
+            <!--------------------- Ambience ----------------------->
+                <div class="app">
+                    <img src="media/audio.png">
+                    <p>Ambience</p>
+                </div>
+
+
+            </div>
+        </div>
+
+    </body>
 </html>
