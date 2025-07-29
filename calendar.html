@@ -4,8 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calendar</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="calendarFeature">
+    <div class="featureHeader">
+        <a href="main.html"><img src="media/back-button.png" alt="back button" width="80px"></a>
+        <h1 id="calendarMonth">Calendar</h1>
+    </div>
+
+
+   <!-- calendar -->
+
+   <div class="calendarContainer">
+
+    <div class="calendar">
+
+        <div class="date">
+            <div class="prev">&#10094;</div>
+            <div class="month">July 2025</div>
+            <div class="next">&#10095;</div>
+        </div>
+
+        <div class="weekdays">
+            <div>Sun</div>
+            <div>Mon</div>
+            <div>Tue</div>
+            <div>Wed</div>
+            <div>Thu</div>
+            <div>Fri</div>
+            <div>Sat</div>
+        </div>
+
+    <div class="days"></div>
+    <div class="event-details">
+      <div class="eventDay">Day</div>
+      <div class="eventDate">Date</div>
+    </div>
+    <div class="events"></div>
+    <button class="addEvent">+ Add Event</button>
+  </div>
+
+  <div class="addEventWrapper">
+    <div class="addEventForm">
+      <input type="text" class="event-name" placeholder="Event Title" />
+      <input type="time" class="event-time-from" />
+      <input type="time" class="event-time-to" />
+      <button class="addEventBtn">Add Event</button>
+      <button class="addEventClose">Close</button>
+    </div>
+  </div>
+
+            
+    </div>
+
+    
+
+    <script src="calendar.js"></script>
+
+
     
 </body>
 </html>
