@@ -1,11 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notes</title>
-</head>
-<body>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Lock In Zone</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body class="feature">
+        <div class="featureHeader">
+            <a href="main.html"><img src="media/back-button.png" alt="back button" width="80px"></a>
+            <h1>Note Pad</h1>
+        </div>
+
+<!---------------------------Notes------------------------------->
+        <div id="notesWrapper">
+            <img src="media/notes-bg.png" id="notesBg">
+            <h2>Notes</h2>
+            
+        </div>
+
+<!---------------------------Add Note Button and Form------------------------------->
+    <button id="addItemBtn" onclick="openNotesForm()">+</button>
     
+    <div id="notesFormOverlay">
+        <button id="closeBtn" onclick="closeNotesForm()">✖</button>
+
+        <form id="notesForm" onsubmit="submitNote()"> <!-- change the function name???-->
+            <label for="title">Note Title:</label><br>
+            <input type="text" id="title" name="title" placeholder="Note Title"> <br><br>
+            <label for="note">Note:</label><br>
+            <textarea id="note" name="note" placeholder="Enter your note here"></textarea> <br><br>
+            <button type="submit" id="submitBtn">Add Note</button>
+        </form>
+    </div>
+
+
+    <script src="script.js"></script>
 </body>
 </html>

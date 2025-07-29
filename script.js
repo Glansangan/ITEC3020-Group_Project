@@ -86,4 +86,29 @@ if (window.location.pathname.endsWith('timer.html')) {
 }
 
 
-// ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// -------------------------------------------------------------Note Popout Form------------------------------------------------------------------------------------------------
+
+function openNotesForm(){
+    document.getElementById('notesFormOverlay').style.display = 'block';
+    document.body.style.overflow = 'hidden'; // no scrolling
+}
+
+function closeNotesForm(){
+    document.getElementById('notesFormOverlay').style.display = 'none';
+    document.body.style.overflow = 'auto'; // allow scrolling again
+}
+
+function submitNote() {
+
+    // this function currently only gets the title and note, then resets and closes the form (also page reloads after form closes)
+
+    // to do: save title and note in sql for specific user
+
+    //make a seperate display notes function and any needed html for it
+
+    const title = document.getElementById('title').value;
+    const note = document.getElementById('note').value;
+
+    document.getElementById('notesForm').reset();
+    closeNotesForm();
+}
