@@ -635,4 +635,104 @@ button[type=submit] {
   z-index: 20; /* top of page */
 }
 
+/* -------- To-Do LIst--------*/
+#todoWrapper {
+  display: flex;
+  gap: 30px;
+  padding: 60px 50px;
+  flex-wrap: wrap;
+}
 
+.mainSection {
+  flex: 2;
+  background-color: #B2CCE3;
+  border-radius: 20px;
+  padding: 25px;
+}
+
+.sideColumn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.prioritySection,
+.completedSection {
+  background-color: #B2CCE3;
+  border-radius: 20px;
+  padding: 25px;
+}
+
+.mainSection h2,
+.prioritySection h2,
+.completedSection h2 {
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  background-color: #93B3C2;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.taskList {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.taskList li {
+  background-color: #dde5b6;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.taskList li.completed {
+  text-decoration: line-through;
+  color: #666;
+}
+
+.taskInputWrapper {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.taskInputWrapper input {
+  flex: 1;
+  padding: 8px;
+  border: 2px solid #93B3C2;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.taskInputWrapper button {
+  padding: 8px 16px;
+  background-color: #93B3C2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.taskInputWrapper button:hover {
+  background-color: #7fa2b4;
+}
+
+.taskList button {
+  margin-left: 10px;
+  background-color: #93B3C2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 4px 10px;
+  cursor: pointer;
+}
+
+.taskList button:hover {
+  background-color: #7fa2b4;
+}
