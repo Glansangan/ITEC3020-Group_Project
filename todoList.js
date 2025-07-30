@@ -26,7 +26,6 @@ async function loadTasks() {
     li.textContent = task.task;
     li.className = task.completed ? 'completed' : '';
 
-    // ✅ Checkbox to complete
     if (!task.completed) {
       const checkbox = document.createElement('input');
       checkbox.type = 'checkbox';
@@ -34,19 +33,17 @@ async function loadTasks() {
       li.prepend(checkbox);
     }
 
-    // ✏️ Edit Button
     const editBtn = document.createElement('button');
     editBtn.textContent = 'Edit';
     editBtn.onclick = () => editTask(task.id, task.task);
     li.appendChild(editBtn);
 
-    // ❌ Delete Button
     const delBtn = document.createElement('button');
     delBtn.textContent = 'Delete';
     delBtn.onclick = () => deleteTask(task.id);
     li.appendChild(delBtn);
 
-    const listId = task.completed ? 'completedList' : (task.type === 'priority' ? 'priorityList' : 'mainList');
+    const listId = task.completed ? 'completedList' : (task.type == 'priority' ? 'priorityList' : 'mainList');
     document.getElementById(listId).appendChild(li);
   });
 }
@@ -72,12 +69,12 @@ async function deleteTask(id) {
 
 async function editTask(id, oldTask) {
   const newTask = prompt("Edit task:", oldTask);
-  if (!newTask || newTask.trim() === '') return;
+  if (!newTask || newTask.trim() == '') return;
 
   await fetch(`http://localhost:3000/update/${id}`, {
     method: 'PUT',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ task: newTask, completed: false }) // reset to false on edit
+    body: JSON.stringify({ task: newTask, completed: false })
   });
   loadTasks();
 }
