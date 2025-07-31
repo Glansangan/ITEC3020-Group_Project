@@ -88,27 +88,31 @@ if (window.location.pathname.endsWith('timer.html')) {
 
 // -------------------------------------------------------------Note Popout Form------------------------------------------------------------------------------------------------
 
-function openNotesForm(){
+function openNotesForm() {
     document.getElementById('notesFormOverlay').style.display = 'block';
-    document.body.style.overflow = 'hidden'; // no scrolling
+    document.body.style.overflow = 'hidden';
 }
 
-function closeNotesForm(){
+function closeNotesForm() {
     document.getElementById('notesFormOverlay').style.display = 'none';
-    document.body.style.overflow = 'auto'; // allow scrolling again
+    document.body.style.overflow = 'auto';
 }
 
-function submitNote() {
+document.getElementById('notesForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    const title = document.getElementById('title').value.trim();
+    const note = document.getElementById('note').value.trim();
 
-    // this function currently only gets the title and note, then resets and closes the form (also page reloads after form closes)
+    if (!title && !note) return;
+    
+    const noteDiv = document.createElement('div');
+    noteDiv.className = 'noteCard';
+    noteDiv.innerHTML = 
+    `<h3>${title || 'Untitled'}</h3>
+    <p>${note}</p>`;
 
-    // to do: save title and note in sql for specific user
-
-    //make a seperate display notes function and any needed html for it
-
-    const title = document.getElementById('title').value;
-    const note = document.getElementById('note').value;
+    document.getElementById('notesWrapper').appendChild(noteDiv);
 
     document.getElementById('notesForm').reset();
     closeNotesForm();
-}
+});

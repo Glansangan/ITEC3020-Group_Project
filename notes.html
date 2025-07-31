@@ -14,29 +14,26 @@
             <h1>Note Pad</h1>
         </div>
 
-<!---------------------------Notes------------------------------->
         <div id="notesWrapper">
-            <img src="media/notes-bg.png" id="notesBg">
             <h2>Notes</h2>
-            
         </div>
 
-<!---------------------------Add Note Button and Form------------------------------->
-    <button id="addItemBtn" onclick="openNotesForm()">+</button>
-    
-    <div id="notesFormOverlay">
-        <button id="closeBtn" onclick="closeNotesForm()">✖</button>
+        <button id="addItemBtn" onclick="openNotesForm()">+</button>
 
-        <form id="notesForm" onsubmit="submitNote()"> <!-- change the function name???-->
-            <label for="title">Note Title:</label><br>
-            <input type="text" id="title" name="title" placeholder="Note Title"> <br><br>
-            <label for="note">Note:</label><br>
-            <textarea id="note" name="note" placeholder="Enter your note here"></textarea> <br><br>
-            <button type="submit" id="submitBtn">Add Note</button>
-        </form>
-    </div>
+        <div id="notesFormOverlay" style="display: none;">
+            <button id="closeBtn" onclick="closeNotesForm()">X</button>
 
+            <form id="notesForm">
+                <label for="title">Note Title:</label><br>
+                <input type="text" id="title" placeholder="Note Title"><br><br>
 
-    <script src="script.js"></script>
+                <label for="note">Note:</label><br>
+                <textarea id="note" placeholder="Enter your note here"></textarea><br><br>
+                
+                <button type="submit" id="submitBtn">Add Note</button>
+            </form>
+        </div>
+
+        <script src="script.js"></script>
 </body>
 </html>
